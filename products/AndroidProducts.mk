@@ -21,6 +21,9 @@ endif
 ifeq (pa_bacon,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_bacon.mk
 endif
+ifeq (pa_cancro,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_cancro.mk
+endif
 ifeq (pa_condor,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_condor.mk
 endif
@@ -60,6 +63,9 @@ endif
 ifeq (pa_falcon,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_falcon.mk
 endif
+ifeq (pa_ferrari,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_ferrari.mk
+endif
 ifeq (pa_find5,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_find5.mk
 endif
@@ -78,6 +84,9 @@ endif
 ifeq (pa_hercules,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_hercules.mk
 endif
+ifeq (pa_himaul,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_himaul.mk
+endif
 ifeq (pa_honami,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_honami.mk
 endif
@@ -86,6 +95,9 @@ ifeq (pa_i9300,$(TARGET_PRODUCT))
 endif
 ifeq (pa_klte,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_klte.mk
+endif
+ifeq (pa_lettuce,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_lettuce.mk
 endif
 ifeq (pa_ls980,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_ls980.mk
@@ -104,9 +116,6 @@ ifeq (pa_mako,$(TARGET_PRODUCT))
 endif
 ifeq (pa_xt926,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_xt926.mk
-endif
-ifeq (pa_moto_msm8960_jbbl,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_moto_msm8960_jbbl.mk
 endif
 ifeq (pa_n1,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_n1.mk
@@ -128,6 +137,9 @@ ifeq (pa_n7100,$(TARGET_PRODUCT))
 endif
 ifeq (pa_odin,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_odin.mk
+endif
+ifeq (pa_oneplus2,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_oneplus2.mk
 endif
 ifeq (pa_peregrine,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_peregrine.mk
@@ -162,6 +174,9 @@ endif
 ifeq (pa_tomato,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tomato.mk
 endif
+ifeq (pa_victara,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_victara.mk
+endif
 ifeq (pa_vs980,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_vs980.mk
 endif
@@ -170,4 +185,16 @@ ifeq (pa_vs985,$(TARGET_PRODUCT))
 endif
 ifeq (pa_yuga,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_yuga.mk
+endif
+ifeq (pa_z3,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_z3.mk
+endif
+ifeq (pa_z3c,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_z3c.mk
+endif
+ifeq (pa_Z00A,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_Z00A.mk
+endif
+ifeq (pa_Z008,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_Z008.mk
 endif
